@@ -14,12 +14,12 @@ st.set_page_config(
 )
 
 st.title("🏀 NBA Player Dashboard")
-st.subheader("Teaching Demo: Streamlit × Plotly")
-
+st.header("這是配合Streamlit Sliders的說明")
+st.subheader("Teaching Demo: Streamlit x Plotly")
 st.markdown(
     """
-    本範例示範如何：
-    - 產生一筆教學用 NBA 資料
+    本範例示範內容：
+    - 虛擬產生一筆 NBA 數據資料
     - 使用 Sidebar 控制分析條件
     - 呈現表格與互動式圖表
     """
